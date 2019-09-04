@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document 
+#0A2342 dark blue
+#2CA58D aqua
+#84BC9C green
+#FFFDF7 off white
+#F46197 pink
+*/
+
+
+body{
+}
+header,footer{
+	background-color:#0A2342;
+	color: #F46197;
+	overflow: auto;
+}
+
+header h1, header h2{
+	color: #2CA58D;
+}
+main{
+	clear: left;
+}
+img{
+	padding: 15px;
+	float: left;
+	
+}
+a {
+	color: #2CA58D;
+}
+a:hover{
+	text-decoration: none;
+}
+h1, h2, h3, p{
+	
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+h1{
+	
+	font-size: 50px;
+}
+
+section h3{
+	font-size: 30px;
+	color: #0A2342;
+}
+
+
+.work{
+	background: #FFFDF7;
+	padding-left: 15px;
+}
+.education{
+	background: #84BC9C;
+	padding: 15px;
+}
+footer{
+	padding: 15px;
+	text-align: center;
+}
